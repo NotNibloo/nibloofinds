@@ -1,6 +1,19 @@
 # NiblooFinds 🛍️
 
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-10.16.4-black.svg)](https://www.framer.com/motion/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/NotNibloo/nibloofinds?style=social)](https://github.com/NotNibloo/nibloofinds/stargazers)
+[![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/nibloofinds)
+
 A curated collection of fashion finds and deals, featuring a wide range of products from various brands including sneakers, clothing, and accessories.
+
+## 📊 Project Status
+
+![GitHub last commit](https://img.shields.io/github/last-commit/NotNibloo/nibloofinds)
+![GitHub issues](https://img.shields.io/github/issues/NotNibloo/nibloofinds)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/NotNibloo/nibloofinds)
+![GitHub contributors](https://img.shields.io/github/contributors/NotNibloo/nibloofinds)
 
 ## ✨ Features
 
@@ -12,13 +25,40 @@ A curated collection of fashion finds and deals, featuring a wide range of produ
 - 🛒 **Direct Links**: Quick access to product pages
 - 🔄 **Dynamic Filtering**: Filter and sort products by various criteria
 
-## 🛠️ Technologies Used
+## 🛠️ Technical Stack
 
-- **Frontend Framework**: React.js
-- **Animations**: Framer Motion
+### Core Technologies
+- **Frontend Framework**: React.js 18.2.0
+- **State Management**: React Hooks
+- **Animations**: Framer Motion 10.16.4
 - **Styling**: CSS3 with custom properties
 - **Icons**: Phosphor Icons
 - **Deployment**: GitHub Pages
+
+### Performance Optimizations
+- Image optimization with WebP format
+- Lazy loading for images
+- Code splitting
+- Responsive image loading
+- Smooth animations with Framer Motion
+
+### Browser Support
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 📦 Dependencies
+
+```json
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "framer-motion": "^10.16.4",
+    "@phosphor-icons/react": "^2.0.15"
+  }
+}
+```
 
 ## 🚀 Getting Started
 
@@ -56,10 +96,13 @@ npm start
 nibloofinds/
 ├── public/
 │   ├── images/
-│   │   └── products/     # Product images
+│   │   └── products/     # Product images (WebP optimized)
 │   └── assets/          # Static assets
 ├── src/
 │   ├── components/      # React components
+│   │   ├── ProductList/ # Product listing component
+│   │   ├── Sidebar/     # Navigation sidebar
+│   │   └── SocialMedia/ # Social media links
 │   ├── App.js          # Main application component
 │   ├── App.css         # Global styles
 │   └── index.js        # Application entry point
@@ -80,6 +123,20 @@ nibloofinds/
 - Responsive layout for all screen sizes
 - Easy-to-use navigation
 - Product filtering and sorting options
+
+## 🔧 Development
+
+### Available Scripts
+- `npm start`: Runs the app in development mode
+- `npm test`: Launches the test runner
+- `npm run build`: Builds the app for production
+- `npm run eject`: Ejects from Create React App
+
+### Code Style
+- Follows React best practices
+- Uses functional components with hooks
+- Implements proper prop types
+- Maintains consistent code formatting
 
 ## 🤝 Contributing
 
@@ -105,9 +162,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to the open-source community for the tools and libraries used
 - Product images and information are sourced from various retailers
 
+## 🌐 Social Media & Community
+
+<div align="center">
+  <a href="https://discord.gg/nibloofinds">
+    <img src="https://img.shields.io/discord/YOUR_DISCORD_ID?color=7289da&label=Discord&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="https://instagram.com/nibloofinds">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://tiktok.com/@nibloofinds">
+    <img src="https://img.shields.io/badge/TikTok-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok" />
+  </a>
+</div>
+
 ---
 
-Made with ❤️ by NotNibloo
+<div align="center">
+  Made with ❤️ by NotNibloo
+</div>
 
 ## Contact
 
