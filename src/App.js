@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import ProductList from "./ProductList";
 import Sidebar from "./Sidebar";
 import "./App.css";
@@ -56,6 +57,7 @@ function App() {
 
   return (
     <div className="app">
+      <SpeedInsights />
       <AnimatePresence>
         {showPopup && (
           <motion.div 
